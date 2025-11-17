@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/books")
+@WebServlet(urlPatterns = {"/books"})
 public class BookServlet extends HttpServlet {
     private final BookDao bookDao = new BookDao();
     private final AuthorDao authorDao = new AuthorDao();
