@@ -1,0 +1,7 @@
+com\example\dao\BookDao.class
+com\example\model\Book.class
+com\example\dao\AuthorDao.class
+com\example\servlet\BookServlet.class
+com\example\servlet\HomeServlet.class
+com\example\model\Author.class
+com\example\servlet\AuthorServlet.class
